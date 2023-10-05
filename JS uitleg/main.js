@@ -1,22 +1,19 @@
-console.log("main.js is loaded");
 
-let counter = 0;
-while (counter < 10) {
-    console.log("while-loop:", counter);
-    counter ++;
+// Functions defenition
+function sayhello() {
+    console.log("Hallo allemaal");
 }
 
-for(let i = 1; i= 10; i++) {
-    console.log("for-loop", i);
-}
+// calling function
+sayhello();
 
-for(let counter = 0; counter < 10; counter++){
-    console.log("for-loop v2", counter);
+function saymessage(message) {
+    console.log("Hallo, ik ben " + message)
 }
+saymessage("Donald");
 
-const todos = ["trainen", "huiswerk maken", "boodschappen doen", "slapen"];
-debugger
-for (let m = 0; m < todos.length; m++){
-    const task = todos[m];
-    console.log("---" + task +"---")
+function saymessages(msg1, msg2) {
+    console.log("Hallo, mijn voornaam is " + message)
+    console.log("Hallo, mijn achternaam is " + message)
 }
+saymessages("Donald", "Duck");
