@@ -182,9 +182,15 @@ const video = `
   ]`
 
   const objvideo = JSON.parse(video)
-  for(let i = 0; i < objvideo.length; i++){
-    console.log("Video" + objvideo[i].title + ": " + objvideo[i].url);
- }
+  const ul = document.createElement('ul');
+
+for(let i = 0; i < objvideo.length; i++){
+    const li = document.createElement('li');
+    li.innerHTML = `<h3>${objvideo[i].title}</h3><img src="${objvideo[i].thumbnailUrl}" alt="${objvideo[i].title}">`;
+    ul.appendChild(li);
+}
+
+document.body.appendChild(ul);
 
 //Opdracht 7
 const Person4 = { 
