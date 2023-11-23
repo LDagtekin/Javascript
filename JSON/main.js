@@ -182,7 +182,10 @@ const video = `
   ]`
 
   const objvideo = JSON.parse(video)
-  console.log("Video", objvideo)
+  for(let i = 0; i < objvideo.length; i++){
+    console.log("Video" + objvideo[i].title + ": " + objvideo[i].url);
+ }
+
 //Opdracht 7
 const Person4 = { 
     name: 'John', 
