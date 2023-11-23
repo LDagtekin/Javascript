@@ -64,3 +64,24 @@ for (let counter = 0; counter > -1; counter++) {
 const kleurenArray = ["rood", "groen", "geel", "blauw", "roze"];
 ul.innerHTML += "<li>" + kleurenArray + "<li>"
 
+// Les
+const productOne = {
+  title: "Laptop macbook pro",
+  color: "Silver",
+price: 2500,
+} 
+console.log(productOne);
+
+const jsonproduct = JSON.stringify(productOne)
+console.log(jsonproduct)
+
+const jsonComment = {
+  "id": 1,
+  "postid": 1,
+  "Userid": 1,
+  "Comment": "lorem ipsum"
+}
+
+const objproduct = JSON.parse()
+
+// FETCH
