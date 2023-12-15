@@ -1,0 +1,42 @@
+#memeCards {
+    display: flex; 
+}
+
+.meme-card {
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+.meme-image {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+
+
+.London {
+    border: 2px solid #3498db; 
+}
+
+.Madrid {
+    border: 2px solid #e74c3c; 
+}
+
+.Paris {
+    border: 2px solid #2ecc71; 
+}
+
+.Alabama {
+    border: 2px solid #f39c12; 
+}
+
+.data-card {
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+}
